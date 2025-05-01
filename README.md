@@ -38,8 +38,8 @@ This is a Streamlit-based web application that converts text into natural-soundi
 
 - Amazon Polly for speech synthesis
 
-boto3 for AWS API interaction
+- boto3 for AWS API interaction
 
-PyPDF2 for PDF text extraction
+- PyPDF2 for PDF text extraction
 
-base64 for embedding background imag
+- base64 for embedding background imag
