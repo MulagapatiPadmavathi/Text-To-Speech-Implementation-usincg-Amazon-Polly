@@ -1,8 +1,9 @@
-🗣️ **Text-to-Speech Converter App** 
+🗣️ __Text-to-Speech Converter App__
 
 This is a Streamlit-based web application that converts text into natural-sounding speech using Amazon Polly, a powerful cloud service from AWS. It supports multiple languages, voices, and allows you to adjust the speech speed and volume. You can input text manually or extract it from a PDF file.
 
-*Features*
+**Features**
+
 🌍 Support for multiple languages and accents
 
 🧑‍🤝‍🧑 Choose voice gender and voice style
@@ -17,23 +18,25 @@ This is a Streamlit-based web application that converts text into natural-soundi
 
 🎨 Custom background and simple UI using Streamlit
 
+
+
 **App Overview**
 
-Home
-An introduction to the app and its core features.
+- Home : An introduction to the app and its core features.
 
-Convert Document
-Upload a .pdf file (up to 1000 characters of extractable text) and convert the content into speech.
+- Convert Document : Upload a .pdf file (up to 1000 characters of extractable text) and convert the content into speech.
 
-Convert Text
-Manually enter any text and convert it to speech.
+- Convert Text : Manually enter any text and convert it to speech.
 
-*Tech Stack*
-Python 3.8+
+  
 
-Streamlit for UI
+**Tech Stack**
 
-Amazon Polly for speech synthesis
+- Python 3.8+
+
+- Streamlit for UI
+
+- Amazon Polly for speech synthesis
 
 boto3 for AWS API interaction
 
