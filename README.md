@@ -1,14 +1,41 @@
-# Text-to-Speech Web App using Flask and Amazon Polly
+🗣️ **Text-to-Speech Converter App**
+This is a Streamlit-based web application that converts text into natural-sounding speech using Amazon Polly, a powerful cloud service from AWS. It supports multiple languages, voices, and allows you to adjust the speech speed and volume. You can input text manually or extract it from a PDF file.
 
-This is a Flask-based web application for converting text and documents (PDF, DOCX) into speech. The app integrates Amazon Polly's Text-to-Speech API to provide high-quality, customizable voice outputs. The app includes features such as voice selection, adjustable speech rate, volume control, and a file upload option.
+Features
+🌍 Support for multiple languages and accents
 
-## Features
-- **Text-to-Speech Conversion**: Convert any text or uploaded document (PDF/DOCX) into speech.
-- **Voice Selection**: Choose between male/female voices and various accents.
-- **Speed Control**: Adjust the speed of the speech from slow to fast.
-- **Volume Control**: Adjust the volume of the speech.
-- **File Upload**: Upload PDFs and DOCX files for text extraction and speech conversion.
-- **Audio Preview**: Listen to the generated speech before downloading.
-- **Downloadable Audio**: Save the converted speech as an audio file.
+🧑‍🤝‍🧑 Choose voice gender and voice style
 
-## You need to set up AWS credentials to use Amazon Polly. You can configure them via the AWS CLI or manually in your environment variables.
+🎚️ Adjustable speech speed and volume
+
+📄 Convert text from uploaded PDF documents
+
+✍️ Enter and convert custom text
+
+🔊 Listen to or download generated speech
+
+🎨 Custom background and simple UI using Streamlit
+
+**App Overview**
+
+Home
+An introduction to the app and its core features.
+
+Convert Document
+Upload a .pdf file (up to 1000 characters of extractable text) and convert the content into speech.
+
+Convert Text
+Manually enter any text and convert it to speech.
+
+*Tech Stack*
+Python 3.8+
+
+Streamlit for UI
+
+Amazon Polly for speech synthesis
+
+boto3 for AWS API interaction
+
+PyPDF2 for PDF text extraction
+
+base64 for embedding background imag
